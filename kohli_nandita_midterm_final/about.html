@@ -9,7 +9,9 @@
 </head>
 <body>
     <nav>
-        <h1>Nandita Kohli</h1>
+        <a href="about.html">
+            <h1>Nandita Kohli</h1>
+        </a>
         <h1 id="title">A Self Portrait</h1>
         <a href="index.html">
             <h2 id="home">Home</h2>
@@ -20,10 +22,37 @@
             About This Project
         </div>
     <h2>The places I have been define me as a person.</h2>
-    <div id="image_list">
+    <!-- <div id="image_list">
         <a href="img/Dakar/IMG_6800_lowres.png"><img src="img/Dakar/IMG_6800_lowres.png" alt="flowers1"></a>
         <a href="img/NYC/IMG_5473_lowres.png"><img src="img/NYC/IMG_5473_lowres.png" alt="hope"></a>
         <a href="img/DMV/IMG_6521_lowres.png"><img src="img/DMV/IMG_6521_lowres.png" alt="cherry_blossoms"></a> 
+    </div> -->
+
+    <div id="image_list">
+
+        <a class="lightbox" href="#flowers1"><img src="img/Dakar/IMG_6800_lowres.png"/></a> 
+        <div class="lightbox-target" id="flowers1">
+            <img src="img/Dakar/IMG_6800_lowres.png"/><a class="lightbox-close" href="#"></a>
+        </div>
+
+    </div>
+
+    <div id="image_list">
+
+        <a class="lightbox" href="#hope"><img src="img/NYC/IMG_5473_lowres.png"/></a> 
+        <div class="lightbox-target" id="hope">
+            <img src="img/NYC/IMG_5473_lowres.png"/><a class="lightbox-close" href="#"></a>
+        </div>
+
+    </div>
+
+    <div id="image_list">
+
+        <a class="lightbox" href="#cherry_blossoms"><img src="img/DMV/IMG_6521_lowres.png"/></a> 
+        <div class="lightbox-target" id="cherry_blossoms">
+            <img src="img/DMV/IMG_6521_lowres.png"/><a class="lightbox-close" href="#"></a>
+        </div>
+
     </div>
 </body>
 </html>
