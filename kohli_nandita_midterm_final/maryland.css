@@ -198,7 +198,7 @@ a.lightbox-close:after {
 .lightbox-target:target img {
     max-height: 100%;
     max-width: 100%;
-    /* overflow: hidden; */
+    /* overflow: hidden; trying to remove scroll from lightbox to prevent glitching*/
     }
     
 .lightbox-target:target a.lightbox-close {
