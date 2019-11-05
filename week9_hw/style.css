@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:400,600,700&display=swap');
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #80BFB9;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 5mm;
+    background-color: white;
+    margin: 2vh;
+    position: relative;
+    border:3mm;
+    border-color: black;
+    letter-spacing: 1em;
+    /* float: left; */
+}
+
+h2{
+    color: #80BFB9;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 5mm;
+    letter-spacing: 1em;
+    /* float: left; */
+}
+
+h3{
+    color:black;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 5em;
+    /* padding: 5mm; */
+    /* float: left; */
+}
+
+.text{
+    color:black;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 1vh;
+    margin: 2vh;
+    letter-spacing: 5em;
+}
+
+.text:hover{
+    letter-spacing: 0;
+    transition: 0.5s;
+}
+
+h3:hover{
+    letter-spacing: 0;
+    transition: 0.5s;
+}
